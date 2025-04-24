@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +15,35 @@
     <meta name="description" content="⚡ Laatste Kans! Krijg Nu 20% Korting op Premium Tegel Displays. Deze Aanbieding is Bijna Voorbij!">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Inter'] antialiased bg-gray-50">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-gray-800">TegelDisplay</div>
-                <button class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition duration-300">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
-                    </svg>
+                <a href="https://readthisnow.github.io/tegel-display-nu-20-korting-2025-04-24-zhdya" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">TegelDisplay</a>
+                
+                <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-100 transition duration-300" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
-                <div class="hidden lg:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition duration-300">Features</a>
-                    <a href="#voordelen" class="text-gray-600 hover:text-gray-900 transition duration-300">Voordelen</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition duration-300">Contact</a>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Features</a>
+                    <a href="#voordelen" class="text-gray-600 hover:text-blue-600 transition duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
                 </div>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <a href="#features" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Features</a>
+                <a href="#voordelen" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Voordelen</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Testimonials</a>
+                <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Over Ons</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">FAQ</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-gray-100 transition duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -36,13 +56,13 @@
                         🔥 Tegel Display <span class="text-red-600">Nu 20% Korting</span>
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-8">
-                        ⚡ Nog maar enkele uren beschikbaar! Mis deze UNIEKE kans niet!
+                        ⚡ Nog maar enkele uren beschikbaar! Mis deze UNIEKE kans niet voor professionele tegelexpositie!
                     </p>
-                    <a href="https://amzn.to/3Eo8cYl" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300">
-                        Claim Nu Je Korting
+                    <a href="https://amzn.to/3Eo8cYl" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-lg">
+                        Claim Nu Je 20% Korting
                     </a>
                     <p class="text-sm text-gray-500 mt-4">
-                        ⏰ Aanbieding geldig tot middernacht
+                        ⏰ Aanbieding geldig tot middernacht - Gratis verzending bij bestelling vandaag!
                     </p>
                 </div>
             </div>
@@ -51,51 +71,142 @@
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-                    Waarom Duizenden Klanten Voor Ons Kiezen
+                    Waarom Duizenden Professionals Voor Ons Kiezen
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-102">
                         <div class="text-blue-600 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
                         <h3 class="text-xl font-semibold text-gray-900 mb-4">Premium Kwaliteit</h3>
-                        <p class="text-gray-600">Gemaakt van hoogwaardig materiaal dat jaren meegaat!</p>
+                        <p class="text-gray-600">Vervaardigd uit hoogwaardig, duurzaam materiaal dat jarenlang meegaat. Gegarandeerde kwaliteit voor professionele presentatie.</p>
                     </div>
-                    <!-- More feature cards... -->
+                    
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Snelle Installatie</h3>
+                        <p class="text-gray-600">Binnen 5 minuten gemonteerd zonder speciaal gereedschap. Inclusief duidelijke handleiding voor probleemloos gebruik.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Maximale Flexibiliteit</h3>
+                        <p class="text-gray-600">Verstelbaar systeem voor alle tegelformaten. Perfect voor showrooms en beurzen met wisselende collecties.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="voordelen" class="py-24 bg-gray-50">
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Over Ons</h2>
+                <div class="space-y-6 text-gray-600">
+                    <p class="leading-relaxed">
+                        TegelDisplay begon in 2015 als een familiebedrijf met één missie: het revolutioneren van tegelpresentatie in de Nederlandse markt. Wat begon als een kleine werkplaats in Amsterdam is uitgegroeid tot de toonaangevende leverancier van premium tegeldisplaysystemen in de Benelux.
+                    </p>
+                    <p class="leading-relaxed">
+                        Onze kernwaarden - innovatie, kwaliteit en klanttevredenheid - vormen de basis van alles wat we doen. We streven ernaar om voorop te blijven lopen in de ontwikkeling van displayoplossingen die perfect aansluiten bij de behoeften van moderne showrooms en tegelprofessionals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-                    Exclusieve Voordelen
+                    Wat Onze Klanten Zeggen
                 </h2>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Benefits content -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"De TegelDisplay heeft onze showroom compleet getransformeerd. We kunnen nu 40% meer tegels presenteren in dezelfde ruimte. De installatie was inderdaad binnen 5 minuten klaar!"</p>
+                        <p class="font-semibold text-gray-800">Marco van der Berg</p>
+                        <p class="text-sm text-gray-500">Eigenaar, Tegels Amsterdam</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Eindelijk een displayoplossing die even professioneel is als onze producten. De flexibiliteit om verschillende formaten te tonen is geweldig."</p>
+                        <p class="font-semibold text-gray-800">Lisa Jansen</p>
+                        <p class="text-sm text-gray-500">Interieurontwerper, Design Studio Rotterdam</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"De kwaliteit is echt top. Na twee jaar intensief gebruik ziet het er nog steeds uit als nieuw. De investering meer dan waard."</p>
+                        <p class="font-semibold text-gray-800">Peter de Vries</p>
+                        <p class="text-sm text-gray-500">Showroommanager, Tegels Utrecht</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Perfecte oplossing voor onze beurspresentaties. Makkelijk te vervoeren en op te zetten. Heeft ons veel tijd en moeite bespaard."</p>
+                        <p class="font-semibold text-gray-800">Sandra Bakker</p>
+                        <p class="text-sm text-gray-500">Marketing Manager, Tegelgroothandel NL</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-24 bg-white">
+        <section id="faq" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
                     Veelgestelde Vragen
                 </h2>
                 <div class="space-y-6">
-                    <!-- FAQ items -->
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Wat is de maximale tegelgrootte die het display kan dragen?</h3>
+                        <p class="text-gray-600">Ons display is geschikt voor tegels tot 120x120 cm en kan een gewicht dragen tot 25 kg per paneel. Het systeem is volledig verstelbaar voor verschillende formaten.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Hoe lang duurt de levering?</h3>
+                        <p class="text-gray-600">We leveren binnen 2-3 werkdagen in heel Nederland. Bij bestellingen vóór 14:00 uur versturen we dezelfde dag nog. Express levering is mogelijk op aanvraag.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Is er garantie op het product?</h3>
+                        <p class="text-gray-600">Ja, we bieden 5 jaar garantie op fabricagefouten. Daarnaast heeft u 30 dagen bedenktijd waarin u het product kosteloos kunt retourneren.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Kan ik het display ook buiten gebruiken?</h3>
+                        <p class="text-gray-600">Het display is primair ontworpen voor binnengebruik. Voor buitengebruik adviseren we onze speciale outdoor-serie die weersbestendig is.</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300 p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Is montage inbegrepen?</h3>
+                        <p class="text-gray-600">Het display is ontworpen voor eenvoudige zelfmontage en wordt geleverd met duidelijke instructies. Professionele montage kan tegen meerprijs worden aangevraagd.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-blue-600">
+        <section class="py-24 bg-blue-600" style="background-image: url('https://images.unsplash.com/photo-1541123437800-1bb1317badc2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-blend-mode: overlay;">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">
                     🎉 Exclusieve 20% Korting - Alleen Vandaag!
                 </h2>
-                <a href="https://amzn.to/3Eo8cYl" class="inline-block bg-white text-blue-600 text-lg font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300">
+                <p class="text-white text-xl mb-8">Inclusief gratis verzending en 30 dagen niet-goed-geld-terug garantie</p>
+                <a href="https://amzn.to/3Eo8cYl" class="inline-block bg-white text-blue-600 text-lg font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 hover:shadow-lg">
                     Bestel Nu Met Korting
                 </a>
             </div>
@@ -107,14 +218,75 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
-                    <p class="text-gray-400">info@tegeldisplay.site</p>
+                    <p class="text-gray-400 hover:text-white transition duration-300">info@tegeldisplay.site</p>
+                    <p class="text-gray-400 hover:text-white transition duration-300">Tel: 020-1234567</p>
                 </div>
-                <!-- More footer columns -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://readthisnow.github.io/tegel-display-nu-20-korting-2025-04-24-zhdya/privacy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/tegel-display-nu-20-korting-2025-04-24-zhdya/terms.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/tegel-display-nu-20-korting-2025-04-24-zhdya/blog.html" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Volg Ons</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Nieuwsbrief</h3>
+                    <p class="text-gray-400 mb-4">Ontvang de laatste updates en aanbiedingen</p>
+                    <form class="space-y-2">
+                        <input type="email" placeholder="E-mail adres" class="w-full px-4 py-2 rounded-lg bg-gray-800 text-white">
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition duration-300">Aanmelden</button>
+                    </form>
+                </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
                 <p>&copy; 2024 TegelDisplay. Alle rechten voorbehouden.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
